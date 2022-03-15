@@ -359,7 +359,6 @@ playbtn.addEventListener("click",function(){
     indicator2.style.visibility = "hidden"
     setTimeout(function(){
         vidloader.reverse();
-        viddy.pause();
     },15000)
     clicked2 = true;
 });
